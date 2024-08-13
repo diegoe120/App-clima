@@ -110,7 +110,7 @@ export default function App() {
             component="img"
             alt={weather.conditionText}
             src={weather.icon}
-            sx={{ margin: "a, auto" }}
+            sx={{ margin: "a, auto", textAlign: "center" }}
           />
           <Typography variant="h5" component="h3">
             {weather.temp} °C
